@@ -1,4 +1,4 @@
-# inbox-to-ledger
+# Spend Tracker For SG Banks
 
 Turn forwarded bank alert emails into a daily spending total, delivered to Telegram. No app, no manual logging, no server. It runs entirely on Google Apps Script, Gmail and Google Sheets, so it costs nothing to host.
 
