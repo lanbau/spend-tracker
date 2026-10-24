@@ -137,4 +137,4 @@ The script precomputes the month's totals, daily totals and top merchants, then 
 
 ## License
 
-Add a license of your choice (MIT is a common default).
+MIT. See [LICENSE](LICENSE).
