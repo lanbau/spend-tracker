@@ -2,6 +2,8 @@
 
 Turn forwarded bank alert emails into a daily spending total, delivered to Telegram. No app, no manual logging, no server. It runs entirely on Google Apps Script, Gmail and Google Sheets, so it costs nothing to host.
 
+<img width="960" height="540" alt="workflow" src="https://github.com/user-attachments/assets/fba562b0-c431-42e2-8035-ee70cd6c1d6c" />
+
 ```
 Bank alert emails
       │  (forwarded to one Gmail, auto-labelled by filter)
@@ -32,6 +34,9 @@ Built for Singapore banks. Parsers live in `Code.gs` and are one regex per forma
 | UOB | PayNow transfer with no amount (captured with a blank amount so the gap stays visible) |
 
 Your alerts may differ slightly. Adding a bank means writing one parser function and registering it in `PARSERS`.
+
+## Architecture
+<img width="1600" height="1000" alt="architecture" src="https://github.com/user-attachments/assets/4f5f285c-ed6b-429a-8f0b-165ce298b021" />
 
 ## Setup
 
